@@ -1,6 +1,36 @@
-ul{
-    color: aqua;
+ul {
+    color: rgb(18, 55, 56);
 }
-h1{
+
+h1 {
     color: blueviolet;
+}
+
+table {
+    color: red;
+}
+
+.hanane {
+    color: green;
+}
+
+#nanay {
+    background-color: rgb(245, 245, 145);
+}
+
+.color-blue {
+    color: blue;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.color-blue.background-yello {
+    font-size: large;
+    background-color: yellow;
+}
+
+.dish {
+    font-size:xx-large;
 }

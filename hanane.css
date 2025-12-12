@@ -32,5 +32,21 @@ ol {
 }
 
 .dish {
-    font-size:xx-large;
+    font-size: xx-large;
+}
+
+ul.color-pink {
+    color: pink;
+}
+
+li.color-pink {
+    color: pink;
+}
+
+a.color-pink {
+    color: pink;
+}
+
+li.color-pink:hover {
+    background-color: aqua;
 }

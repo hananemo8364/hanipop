@@ -22,12 +22,10 @@ ol {
     font-weight: bold;
 }
 
-.color-blue.background-yello {
-    font-size: large;
-}
+.color-blue.background-yello {}
 
 .dish {
-    font-size: xx-large;
+    font-size: 2rem;
 }
 
 ul.color-pink {
@@ -80,7 +78,7 @@ h1 {
 body {
     padding: 20px 0 0 20px;
     background-color: aquamarine;
-    background-image: url(./lg-کیهان\(1\).jpg);
+    background-image: url(dish.jpg);
     color: aqua;
     background-attachment: fixed;
     font-family: 'iranmarker' fallback;
@@ -117,3 +115,12 @@ ol {
 .noor {
     line-height: 30px;
 }
+
+.img-box {
+    position: relative;
+}
+ 
+html {
+    font-size: 100%;
+}
+

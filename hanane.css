@@ -1,0 +1,142 @@
+ul {
+    color: rgb(18, 55, 56);
+}
+
+h1 {
+    color: blueviolet;
+}
+
+table {
+    color: white;
+}
+
+.hanane {
+    color: green;
+}
+
+.color-blue {
+    color: blue;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.color-blue.background-yello {}
+
+.dish {
+    font-size: 2rem;
+}
+
+ul.color-pink {
+    color: pink;
+}
+
+li.color-pink {
+    color: pink;
+}
+
+a.color-pink {
+    color: pink;
+}
+
+li.color-pink:hover {
+    background-color: aqua;
+}
+
+form {
+
+    padding-left: 700px;
+}
+
+h2 {
+    padding-left: 900px;
+}
+
+.dish {
+    padding-left: 50px 0 0 320px;
+}
+
+video {
+    padding: 30px 0 0 230px;
+}
+
+#nanay {
+    padding-left: 500px;
+    border-color: crimson;
+}
+
+ul {
+    padding-left: 90px;
+}
+
+h1 {
+    padding-left: 280px;
+    padding-top: 20px;
+}
+
+body {
+    padding: 20px 0 0 20px;
+    background-color: aquamarine;
+    background-image: url(dish.jpg);
+    color: aqua;
+    background-attachment: fixed;
+    font-family: 'iranmarker' fallback;
+}
+
+
+
+
+
+#nini {
+    padding: 10px 0 0 500px;
+}
+
+#boos {
+    padding-left: 500px;
+    line-height: 20px;
+}
+
+#qow {
+    padding-left: 500px;
+    border-color: rgb(255, 0, 127);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.body {
+    font-family: serif;
+}
+
+ol {
+    font: 20px "vazir";
+}
+
+.noor {
+    line-height: 30px;
+}
+
+.img-box {
+    position: relative;
+}
+
+html {
+    font-size: 100%;
+}
+
+.dad {
+    color: palevioletred;
+    padding-left: 46rem;
+}
+
+a {
+    color: palevioletred;
+}
+
+.baby {
+    padding-left: 35rem;
+}
+
+.bib {
+    padding-left: 20rem;
+}

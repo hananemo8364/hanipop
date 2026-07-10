@@ -1,0 +1,83 @@
+.rubik {
+perspective: 600px;
+width: 200px;
+height: 200px;
+padding: 4rem;
+}
+
+.cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+.cube:hover {
+    transform: rotatey(270deg);
+}
+
+.cube_face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cube_face--front {
+    background: rgba(255, 0, 0, .7);
+}
+
+.cube_face--back {
+    background: rgba(0, 255, 0, .7);
+}
+
+.cube_face--right {
+    background: rgba(0, 0, 255, .7);
+}
+
+.cube_face--left {
+    background: rgba(255, 255, 0, .7);
+}
+
+.cube_face--top {
+    background: rgba(255, 0, 255, .7);
+}
+
+.cube_face--bottom {
+    background: rgba(0, 255, 255, .7);
+}
+
+.cube_face--front {
+    transform: rotatey(0deg) translateZ(100px);
+}
+
+.cube_face--back {
+    transform: rotatey(180deg) translateZ(100px);
+}
+
+.cube_face--right {
+    transform: rotatey(90deg) translateZ(100px);
+}
+
+.cube_face--left {
+    transform: rotatey(-90deg) translateZ(100px);
+}
+
+.cube_face--top {
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.cube_face--bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+}

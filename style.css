@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+}
+
+.counter {
+    width: 400px;
+    height: 430px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: maroon;
+    border-radius: 10px;
+}
+
+.counter_title {
+    margin-bottom: 30px;
+}
+
+.counter_value {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* دکمه ریست */
+.counter_reset-button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: burlywood;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+/* دکمه های مثبت و منفی */
+.counter_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: burlywood;
+}
+
+.counter_button {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+/* وقتی موس روی دکمه میره */
+.counter_button:hover,
+.counter_reset-button:hover {
+    background: #eeeeee;
+}
+
+@media (max-width:689px){
+    .counter{
+        width: 100%;
+        height: 100%;
+    }
+}
